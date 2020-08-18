@@ -7,9 +7,8 @@ import matplotlib.pyplot as plt
 from IPython.display import clear_output
 from six.moves import urllib
 
-import tensorflow.compat.v2.feature_column as fc
-
 import tensorflow as tf
+# import tensorflow.compat.v2.feature_column as fc
 
 dftrain = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/train.csv') # training data
 dfeval = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/eval.csv') # testing data
