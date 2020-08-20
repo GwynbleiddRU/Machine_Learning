@@ -1,0 +1,15 @@
+{
+    "editor.fontSize": 14,
+
+    //Python
+    "python.pythonPath": "prognoz_rnn_env\\Scripts\\python.exe",
+
+    // Whether to lint Python files using pylint.
+    "python.linting.pylintEnabled": true,
+
+    // Whether to lint Python files using pep8
+    "python.linting.pycodestyleEnabled": true,
+
+    // Whether to lint Python files using flake8
+    "python.linting.flake8Enabled": true
+}
